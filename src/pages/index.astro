@@ -1,12 +1,20 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Masthead from  '../components/Masthead.astro';
-import Work from  '../components/Work.astro';
+import Layout from "../layouts/Layout.astro";
+import Masthead from "../components/Masthead.astro";
+import Work from "../components/Work.astro";
+import Selected from "../components/Selected.astro";
+
+const title = "bocc(dot)dev";
+const seoTitle = "bocc(dot)dev";
+const seoDescription = "A design-led development studio";
 ---
 
-<Layout title="bocc(dot)dev">
+<Layout {title} {seoTitle} {seoDescription}>
 	<main class="w-full p-8">
 		<Masthead />
+		<!-- 
+			<Selected />
+			<Work /> 
+		-->
 	</main>
 </Layout>
-
