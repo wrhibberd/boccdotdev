@@ -5,7 +5,6 @@ interface Props {
 	seoDescription: string;
 }
 
-import Header from "../components/Header.astro";
 import "../styles/app.pcss";
 
 const {
@@ -47,7 +46,6 @@ const {
 		<script src="../scripts/app.js"></script>
 	</head>
 	<body class="w-full min-h-[100vh]">
-		<Header />
 		<slot />
 		<script async defer src="https://cabin.bocc.dev/hello.js"></script>
 	</body>

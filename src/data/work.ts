@@ -9,7 +9,7 @@ interface Work {
 				link: string;
 		  }
 		| undefined;
-	service: Array<"Design" | "Development" | "Hosting" | "Maintenance">;
+	service: Array<"Design" | "Development">;
 	stack: Array<
 		| "Craft CMS"
 		| "Sprig (HTMX)"
@@ -37,11 +37,12 @@ const work = [
         status: "In Progress",
 		year: 2023,
 		title: "Rabble",
+		service: ["Design", "Development"],
 	},
 	{
 		status: "In Progress",
 		title: "Ocean Ecology",
-		service: ["Design", "Development", "Hosting", "Maintenance"],
+		service: ["Design", "Development"],
 		stack: [
 			"Craft CMS",
 			"Sprig (HTMX)",
@@ -54,7 +55,7 @@ const work = [
 	{
 		status: "Ongoing",
 		title: "The House Group",
-		service: ["Design", "Development", "Hosting", "Maintenance"],
+		service: ["Design", "Development"],
 		stack: [
 			"Craft CMS",
 			"Sprig (HTMX)",
@@ -66,41 +67,6 @@ const work = [
 			url: "https://thehouse-group.com/",
 		},
 	},
-	// {
-	// 	year: 2023,
-	// 	title: "University of Exeter - Bare Life",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	service: ["Development", "Hosting", "Maintenance"],
-	// 	stack: ["Craft CMS", "AlpineJs", "Tailwind"],
-	// 	link: {
-	// 		url: "https://barelife.art/",
-	// 	},
-	// },
-	// {
-	// 	year: 2023,
-	// 	title: "University of Exeter - MA Curation Archive",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://uofecuration.art/",
-	// 	},
-	// },
-	// {
-	// 	year: 2023,
-	// 	title: "Moulsecoomb Place",
-	// 	partner: {
-	// 		name: "Kaleido Graphik",
-	// 		link: "https://kaleidografik.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://moulsecoombplace.com/",
-	// 	},
-	// },
 	{
 		year: 2023,
 		title: "GANNI Responsibility Report 2022",
@@ -108,6 +74,7 @@ const work = [
 			name: "POST",
 			link: "https://deliveredbypost.com/",
 		},
+		service: ["Development"],
 		link: {
 			url: "https://responsibilityreport2022.ganni.com/",
 		},
@@ -115,6 +82,7 @@ const work = [
 	{
 		year: 2023,
 		title: "adidas originals x END. Bauhaus Collection",
+		service: ["Development"],
 		partner: {
 			name: "The Midnight Club",
 			link: "https://themidnightclub.com/",
@@ -123,20 +91,10 @@ const work = [
 			url: "https://www.bauhausbyend.com/",
 		},
 	},
-	// {
-	// 	year: 2023,
-	// 	title: "OLO Global",
-	// 	partner: {
-	// 		name: "Kaleido Graphik",
-	// 		link: "https://kaleidografik.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://olo.global/",
-	// 	},
-	// },
 	{
 		year: 2022,
 		title: "Studio Knight Stokoe",
+		service: ["Development"],
 		partner: {
 			name: "AndEveryone",
 			link: "https://andeveryone.com/",
@@ -145,27 +103,18 @@ const work = [
 			url: "https://knightstokoe.co.uk/",
 		},
 	},
-	// {
-	// 	year: 2022,
-	// 	title: "Beam",
-	// 	link: {
-	// 		url: "https://www.bemorebeam.com/",
-	// 	},
-	// },
-	// {
-	// 	year: 2022,
-	// 	title: "Sibyl Studio",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://www.sibylstudio.com/",
-	// 	},
-	// },
+	{
+		year: 2022,
+		title: "Beam",
+		service: ["Design", "Development"],
+		link: {
+			url: "https://www.bemorebeam.com/",
+		},
+	},
 	{
 		year: 2022,
 		title: "& Smith",
+		service: ["Development"],
 		partner: {
 			name: "Kaleido Graphik",
 			link: "https://kaleidografik.com/",
@@ -174,20 +123,10 @@ const work = [
 			url: "https://andsmithdesign.com/",
 		},
 	},
-	// {
-	// 	year: 2022,
-	// 	title: "University of Exeter - Creative Peninsula",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://creativepeninsula.org/",
-	// 	},
-	// },
 	{
 		year: 2022,
 		title: "Carl Robertshaw",
+		service: ["Development"],
 		partner: {
 			name: "Ben Jones Design",
 			link: "https://www.benjonesdesign.co.uk/",
@@ -196,20 +135,10 @@ const work = [
 			url: "https://carlrobertshaw.com/",
 		},
 	},
-	// {
-	// 	year: 2022,
-	// 	title: "Nike MR US Tour Recap",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		text: "link on request",
-	// 	},
-	// },
 	{
 		year: 2022,
 		title: "Outside Devon",
+		service: ["Development"],
 		partner: {
 			name: "Intercity Studio",
 			link: "https://intercitystudio.com/",
@@ -218,20 +147,10 @@ const work = [
 			url: "https://www.outside-devon.com/",
 		},
 	},
-	// {
-	// 	year: 2022,
-	// 	title: "Nike 50th Anniversary Recap",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		text: "link on request",
-	// 	},
-	// },
 	{
 		year: 2022,
 		title: "Intercity Studio",
+		service: ["Development","Maintenance"],
 		partner: {
 			name: "Intercity Studio",
 			link: "https://intercitystudio.com/",
@@ -240,27 +159,10 @@ const work = [
 			url: "https://intercitystudio.com/",
 		},
 	},
-	// {
-	// 	year: 2022,
-	// 	title: "University of Exeter - Now’s The Time",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://nowsthetime.art/",
-	// 	},
-	// },
-	// {
-	// 	year: 2022,
-	// 	title: "Radley Cook",
-	// 	link: {
-	// 		url: "https://radleycook.com/",
-	// 	},
-	// },
 	{
 		year: 2022,
 		title: "Eric Haacht",
+		service: ["Development"],
 		partner: {
 			name: "Intercity Studio",
 			link: "https://intercitystudio.com/",
@@ -272,75 +174,23 @@ const work = [
 	{
 		year: 2022,
 		title: "Insight Film",
+		service: ["Design", "Development"],
 		link: {
 			url: "https://insight.film/",
 		},
 	},
-	// {
-	// 	year: 2021,
-	// 	title: "University of Exeter - Anitbodies",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://antibodies.art/",
-	// 	},
-	// },
-	// {
-	// 	year: 2021,
-	// 	title: "The Food Buyer",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://thefoodbuyer.com/",
-	// 	},
-	// },
-	// {
-	// 	year: 2021,
-	// 	title: "Bywater Properties",
-	// 	partner: {
-	// 		name: "Kaleido Graphik",
-	// 		link: "https://kaleidografik.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://bywaterproperties.com/",
-	// 	},
-	// },
 	{
 		year: 2021,
 		title: "Livia Lauber",
+		service: ["Design", "Development"],
 		link: {
 			url: "https://livialauber.com/",
 		},
 	},
-	// {
-	// 	year: 2021,
-	// 	title: "The Worlds To Do List",
-	// 	partner: {
-	// 		name: "MUD",
-	// 		link: "https://ournameismud.co.uk/",
-	// 	},
-	// 	link: {
-	// 		url: "https://worldstodolist.org/",
-	// 	},
-	// },
-	// {
-	// 	year: 2021,
-	// 	title: "Mirror",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://mirrorplymouth.com/",
-	// 	},
-	// },
 	{
 		year: 2021,
 		title: "Virtual 1",
+		service: ["Development"],
 		partner: {
 			name: "MUD",
 			link: "https://ournameismud.co.uk/",
@@ -349,31 +199,10 @@ const work = [
 			url: "https://virtual1.com/",
 		},
 	},
-	// {
-	// 	year: 2020,
-	// 	title: "Martha de Lacey",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://marthadelacey.com/",
-	// 	},
-	// },
-	// {
-	// 	year: 2020,
-	// 	title: "Gemma Blackshaw Art Historian & Curator",
-	// 	partner: {
-	// 		name: "Intercity Studio",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	link: {
-	// 		url: "https://www.gemmablackshaw.com/",
-	// 	},
-	// },
 	{
 		year: 2020,
 		title: "Established & Sons",
+		service: ["Design", "Development"],
 		partner: {
 			name: "Intercity Studio",
 			link: "https://intercitystudio.com/",

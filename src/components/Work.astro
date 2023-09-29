@@ -2,68 +2,71 @@
 import work from "../data/work.ts";
 ---
 
-<section class="pt-24 bg-white dark:bg-black min-h-screen relative">
-	<div class="overflow-x-auto relative">
-		<table class="mt-8 w-full">
-			<thead>
-				<tr class="font-mono dark:text-grey-dark text-grey-mid">
-					<th class="font-normal text-left py-2 pr-2 text-xs">Year</th
+<section
+	class="pt-24 bg-white dark:bg-black relative border-b dark:border-grey-dark border-grey-mid"
+>
+	<h2 class="font-medium text-xl [text-wrap:balance] hidden sm:flex pb-8">
+		Featured Work
+	</h2>
+
+	<div class="sticky top-0 z-50 hidden md:block">
+		<div
+			class="grid grid-cols-12 gap-8 text-sm font-mono dark:text-grey-dark text-grey-mid py-4 border-b dark:border-grey-dark border-grey-mid bg-white dark:bg-black"
+		>
+			<div>Year</div>
+			<div class="col-span-5">Project</div>
+			<div class="col-span-2">Partner</div>
+			<div class="col-span-3">Service</div>
+			<div>Link</div>
+		</div>
+	</div>
+	<div
+		class="divide-y dark:divide-grey-dark divide-grey-mid border-b dark:border-grey-dark border-grey-mid"
+	>
+		{
+			work.map((item, i) => (
+				<div class="md:grid md:grid-cols-12 gap-8 py-4">
+					<div
+						class:list={[
+							{
+								"animate-pulse break-all":
+									item.status == "In Progress",
+							},
+						]}
 					>
-					<th class="font-normal text-left p-2 text-xs">Project</th>
-					<th class="font-normal text-left p-2 text-xs">Partner</th>
-					<!--
-                        <th class="font-normal text-left p-2 min-w-[200px]">Service</th>
-                        <th class="font-normal text-left p-2 min-w-[200px]">Stack</th> 
-                    -->
-					<th class="font-normal text-left py-2 pl-2 text-xs">Link</th
-					>
-				</tr>
-			</thead>
-			<tbody>
-				{
-					work.map((item, i) => (
-						<tr>
-							<td class="py-2 pr-2 whitespace-nowrap">
-								{item.status ? item.status : item.year}
-							</td>
-							<td class="p-2 whitespace-nowrap">{item.title}</td>
-							<td class="p-2 whitespace-nowrap">
-								{item.partner?.link ? (
-									<a href={item.partner.link} target="_blank">
-										{item.partner.name}
-									</a>
-								) : (
-									item.partner?.name
-								)}
-							</td>
-							<td class="py-2 pl-2 whitespace-nowrap">
-								{item.link?.url ? (
-									<span>
-										{item.link?.text}{" "}
-										<a href={item.link.url} target="_blank">
-											{item.link.url}
-										</a>
-									</span>
-								) : (
-									item.link?.text
-								)}
-							</td>
-						</tr>
-					))
-				}
-				<!--
-                    <td class="p-2">
-                        { item.service.map((service, i) => (
-                            <span class="inline-block mr-2">{ service }{ i !== item.service.length - 1 && ',' }</span>
-                        )) }
-                    </td>
-                    <td class="p-2">
-                        { item.stack.map((stack, i) => (
-                            <span class="inline-block mr-2">{ stack }{ i !== item.stack.length - 1 && ',' }</span>
-                        )) }
-                    </td>
-                -->
-			</tbody>
-		</table>
+						{item.status ? item.status : item.year}
+					</div>
+					<div class="col-span-5">{item.title}</div>
+					<div class="col-span-2">
+						{item.partner?.link ? (
+							<a href={item.partner.link} target="_blank">
+								{item.partner.name}
+							</a>
+						) : (
+							item.partner?.name
+						)}
+					</div>
+					<div class="col-span-3">
+						{item.service.map((service, i) => (
+							<span class="inline-block mr-2">
+								{service}
+								{i !== item.service.length - 1 && ","}
+							</span>
+						))}
+					</div>
+					{item.link ? (
+						<a
+							href={item.link?.url}
+							target="_blank"
+							class="font-mono"
+						>
+							-->
+						</a>
+					) : (
+						<div />
+					)}
+				</div>
+			))
+		}
 	</div>
 </section>
