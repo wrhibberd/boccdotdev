@@ -5,12 +5,13 @@ interface Props {
 	seoDescription: string;
 }
 
+import Header from "../components/Header.astro";
 import "../styles/app.pcss";
 
-const { 
-	title = 'bocc(dot)dev', 
-	seoTitle = 'bocc(dot)dev', 
-	seoDescription = 'A design-led development studio' 
+const {
+	title = "bocc(dot)dev",
+	seoTitle = "bocc(dot)dev",
+	seoDescription = "A design-led development studio",
 } = Astro.props;
 ---
 
@@ -26,10 +27,7 @@ const {
 		<meta name="description" content={seoDescription} />
 		<meta property="og:locale" content="en_GB" />
 		<meta property="og:title" content={seoTitle} />
-		<meta
-			property="og:site_name"
-			content={seoTitle}
-		/>
+		<meta property="og:site_name" content={seoTitle} />
 		<meta property="og:url" content={Astro.url.href} />
 		<meta property="og:description" content={seoDescription} />
 		<!-- <meta property="og:image" content="/seo/twitter-ganni.jpg" /> -->
@@ -49,6 +47,7 @@ const {
 		<script src="../scripts/app.js"></script>
 	</head>
 	<body class="w-full min-h-[100vh]">
+		<Header />
 		<slot />
 		<script async defer src="https://cabin.bocc.dev/hello.js"></script>
 	</body>
