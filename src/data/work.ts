@@ -140,7 +140,7 @@ const work = [
 		title: "Outside Devon",
 		service: ["Development"],
 		partner: {
-			name: "Intercity Studio",
+			name: "Intercity",
 			link: "https://intercitystudio.com/",
 		},
 		link: {
@@ -149,10 +149,10 @@ const work = [
 	},
 	{
 		year: 2022,
-		title: "Intercity Studio",
+		title: "Intercity",
 		service: ["Development","Maintenance"],
 		partner: {
-			name: "Intercity Studio",
+			name: "Intercity",
 			link: "https://intercitystudio.com/",
 		},
 		link: {
@@ -164,7 +164,7 @@ const work = [
 		title: "Eric Haacht",
 		service: ["Development"],
 		partner: {
-			name: "Intercity Studio",
+			name: "Intercity",
 			link: "https://intercitystudio.com/",
 		},
 		link: {
@@ -204,7 +204,7 @@ const work = [
 		title: "Established & Sons",
 		service: ["Design", "Development"],
 		partner: {
-			name: "Intercity Studio",
+			name: "Intercity",
 			link: "https://intercitystudio.com/",
 		},
 		link: {
