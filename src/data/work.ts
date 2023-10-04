@@ -150,7 +150,7 @@ const work = [
 	{
 		year: 2022,
 		title: "Intercity",
-		service: ["Development","Maintenance"],
+		service: ["Development"],
 		partner: {
 			name: "Intercity",
 			link: "https://intercitystudio.com/",
