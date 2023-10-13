@@ -105,14 +105,6 @@ const work = [
 	},
 	{
 		year: 2022,
-		title: "Beam",
-		service: ["Design", "Development"],
-		link: {
-			url: "https://www.bemorebeam.com/",
-		},
-	},
-	{
-		year: 2022,
 		title: "& Smith",
 		service: ["Development"],
 		partner: {
