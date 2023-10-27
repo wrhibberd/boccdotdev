@@ -108,7 +108,7 @@ const work = [
 		title: "& Smith",
 		service: ["Development"],
 		partner: {
-			name: "Kaleido Graphik",
+			name: "Kaleido Grafik",
 			link: "https://kaleidografik.com/",
 		},
 		link: {
