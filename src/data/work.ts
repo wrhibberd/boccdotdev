@@ -69,6 +69,18 @@ const work = [
 	},
 	{
 		year: 2023,
+		title: "Atlantica",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
+		},
+		service: ["Design", "Development"],
+		link: {
+			url: "https://atlantica.art/",
+		},
+	},
+	{
+		year: 2023,
 		title: "GANNI Responsibility Report 2022",
 		partner: {
 			name: "POST",
