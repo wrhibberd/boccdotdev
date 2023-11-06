@@ -43,12 +43,6 @@ const work = [
 		},
 		service: ["Development"],
 	},
-    {
-        status: "In Progress",
-		year: 2023,
-		title: "Rabble",
-		service: ["Design", "Development"],
-	},
 	{
 		status: "In Progress",
 		title: "Ocean Ecology",
@@ -75,6 +69,14 @@ const work = [
 		],
 		link: {
 			url: "https://thehouse-group.com/",
+		},
+	},
+	{
+		year: 2023,
+		title: "Rabble",
+		service: ["Design", "Development"],
+		link: {
+			url: "https://rabblefilm.co.uk/",
 		},
 	},
 	{
