@@ -36,6 +36,16 @@ const work = [
     {
         status: "In Progress",
 		year: 2023,
+		title: "Gendering The Museum",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
+		},
+		service: ["Development"],
+	},
+    {
+        status: "In Progress",
+		year: 2023,
 		title: "Rabble",
 		service: ["Design", "Development"],
 	},
