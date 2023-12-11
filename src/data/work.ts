@@ -36,6 +36,26 @@ const work = [
     {
         status: "In Progress",
 		year: 2023,
+		title: "Open Squash",
+		partner: {
+			name: "Soello",
+			link: "https://www.soello.com/",
+		},
+		service: ["Design", "Development"],
+	},
+    {
+        status: "In Progress",
+		year: 2023,
+		title: "ESPO",
+		partner: {
+			name: "Bellow Studio",
+			link: "https://twitter.com/BellowStudio",
+		},
+		service: ["Development"],
+	},
+    {
+        status: "In Progress",
+		year: 2023,
 		title: "Gendering The Museum",
 		partner: {
 			name: "Intercity",
