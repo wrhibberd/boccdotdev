@@ -71,26 +71,26 @@ const work = [
 			url: "https://thehouse-group.com/",
 		},
 	},
-	{
-		year: 2023,
-		title: "Rabble",
-		service: ["Design", "Development"],
-		link: {
-			url: "https://rabblefilm.co.uk/",
-		},
-	},
-	{
-		year: 2023,
-		title: "Atlantica",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
-		service: ["Design", "Development"],
-		link: {
-			url: "https://atlantica.art/",
-		},
-	},
+	// {
+	// 	year: 2023,
+	// 	title: "Rabble",
+	// 	service: ["Design", "Development"],
+	// 	link: {
+	// 		url: "https://rabblefilm.co.uk/",
+	// 	},
+	// },
+	// {
+	// 	year: 2023,
+	// 	title: "Atlantica",
+	// 	partner: {
+	// 		name: "Intercity",
+	// 		link: "https://intercitystudio.com/",
+	// 	},
+	// 	service: ["Design", "Development"],
+	// 	link: {
+	// 		url: "https://atlantica.art/",
+	// 	},
+	// },
 	{
 		year: 2023,
 		title: "GANNI Responsibility Report 2022",
