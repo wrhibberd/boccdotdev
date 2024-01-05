@@ -33,16 +33,7 @@ interface Work {
 }
 
 const work = [
-    {
-        status: "In Progress",
-		year: 2023,
-		title: "Open Squash",
-		partner: {
-			name: "Soello",
-			link: "https://www.soello.com/",
-		},
-		service: ["Design", "Development"],
-	},
+
     {
         status: "In Progress",
 		year: 2023,
@@ -91,6 +82,18 @@ const work = [
 			url: "https://thehouse-group.com/",
 		},
 	},
+	{
+		year: 2023,
+		title: "Open Squash",
+		partner: {
+			name: "Soello",
+			link: "https://www.soello.com/",
+		},
+		service: ["Design", "Development"],
+		link: {
+			url: "https://opensquash.org/",
+		},
+	},
 	// {
 	// 	year: 2023,
 	// 	title: "Rabble",
@@ -99,18 +102,18 @@ const work = [
 	// 		url: "https://rabblefilm.co.uk/",
 	// 	},
 	// },
-	// {
-	// 	year: 2023,
-	// 	title: "Atlantica",
-	// 	partner: {
-	// 		name: "Intercity",
-	// 		link: "https://intercitystudio.com/",
-	// 	},
-	// 	service: ["Design", "Development"],
-	// 	link: {
-	// 		url: "https://atlantica.art/",
-	// 	},
-	// },
+	{
+		year: 2023,
+		title: "Atlantica",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
+		},
+		service: ["Design", "Development"],
+		link: {
+			url: "https://atlantica.art/",
+		},
+	},
 	{
 		year: 2023,
 		title: "GANNI Responsibility Report 2022",
