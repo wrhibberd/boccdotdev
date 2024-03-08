@@ -34,13 +34,33 @@ interface Work {
 
 const work = [
 
+	{
+		status: "In Progress",
+		year: 2024,
+		title: "Harbour House",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
+		},
+		service: ["Development"],
+	},
     {
         status: "In Progress",
-		year: 2023,
+		year: 2024,
 		title: "ESPO",
 		partner: {
 			name: "Bellow Studio",
 			link: "https://twitter.com/BellowStudio",
+		},
+		service: ["Development"],
+	},
+    {
+        status: "In Progress",
+		year: 2024,
+		title: "Settled Culture",
+		partner: {
+			name: "I Am Sam Creative",
+			link: "https://iamsamcreative.co.uk/",
 		},
 		service: ["Development"],
 	},
