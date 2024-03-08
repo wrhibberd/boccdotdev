@@ -45,12 +45,22 @@ const work = [
 		service: ["Development"],
 	},
     {
-        status: "In Progress",
+		status: "In Progress",
 		year: 2024,
 		title: "ESPO",
 		partner: {
 			name: "Bellow Studio",
 			link: "https://twitter.com/BellowStudio",
+		},
+		service: ["Development"],
+	},
+	{
+		status: "In Progress",
+		year: 2024,
+		title: "Centre for Innovation in Mathematics Teaching",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
 		},
 		service: ["Development"],
 	},
@@ -61,6 +71,16 @@ const work = [
 		partner: {
 			name: "I Am Sam Creative",
 			link: "https://iamsamcreative.co.uk/",
+		},
+		service: ["Development"],
+	},
+    {
+        status: "In Progress",
+		year: 2024,
+		title: "Dice Consulting",
+		partner: {
+			name: "POST",
+			link: "https://deliveredbypost.com/",
 		},
 		service: ["Development"],
 	},
