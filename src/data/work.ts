@@ -175,7 +175,7 @@ const work = [
 			link: "https://themidnightclub.com/",
 		},
 		link: {
-			url: "https://www.bauhausbyend.com/",
+			url: "https://dynamic-sawine-c0fae5.netlify.app",
 		},
 	},
 	{
