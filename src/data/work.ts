@@ -33,17 +33,6 @@ interface Work {
 }
 
 const work = [
-
-	{
-		status: "In Progress",
-		year: 2024,
-		title: "Harbour House",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
-		service: ["Development"],
-	},
     {
 		status: "In Progress",
 		year: 2024,
@@ -94,19 +83,19 @@ const work = [
 		},
 		service: ["Development"],
 	},
-	{
-		status: "In Progress",
-		title: "Ocean Ecology",
-		service: ["Design", "Development"],
-		stack: [
-			"Craft CMS",
-			"Sprig (HTMX)",
-			"AlpineJs",
-			"GSAP",
-			"Taxi.js",
-			"Tailwind",
-		],
-	},
+	// {
+	// 	status: "In Progress",
+	// 	title: "Ocean Ecology",
+	// 	service: ["Design", "Development"],
+	// 	stack: [
+	// 		"Craft CMS",
+	// 		"Sprig (HTMX)",
+	// 		"AlpineJs",
+	// 		"GSAP",
+	// 		"Taxi.js",
+	// 		"Tailwind",
+	// 	],
+	// },
 	{
 		status: "Ongoing",
 		title: "The House Group",
@@ -120,6 +109,18 @@ const work = [
 		],
 		link: {
 			url: "https://thehouse-group.com/",
+		},
+	},
+	{
+		year: 2024,
+		title: "Harbour House",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
+		},
+		service: ["Development"],
+		link: {
+			url: "https://harbourhouse.org.uk/",
 		},
 	},
 	{
