@@ -36,6 +36,36 @@ const work = [
 	{
 		status: "In Progress",
 		year: 2024,
+		title: "Born 2 Localize",
+		partner: {
+			name: "REZ",
+			link: "https://www.tabrez.cc/",
+		},
+		service: ["Development"],
+	},
+	{
+		status: "In Progress",
+		year: 2024,
+		title: "RBC",
+		partner: {
+			name: "The Modern World",
+			link: "https://themodernworld.co.uk/",
+		},
+		service: ["Development"],
+	},
+	{
+		status: "In Progress",
+		year: 2024,
+		title: "Cicada",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
+		},
+		service: ["Development"],
+	},
+	{
+		status: "In Progress",
+		year: 2024,
 		title: "ESPO",
 		partner: {
 			name: "Bellow Studio",
@@ -92,18 +122,6 @@ const work = [
 		},
 	},
 	{
-		year: 2023,
-		title: "Gendering The Museum",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
-		service: ["Development"],
-		link: {
-			url: "https://genderingthemuseum.co.uk/",
-		},
-	},
-	{
 		year: 2024,
 		title: "Dice Consulting",
 		partner: {
@@ -125,6 +143,18 @@ const work = [
 		service: ["Development"],
 		link: {
 			url: "https://harbourhouse.org.uk/",
+		},
+	},
+	{
+		year: 2023,
+		title: "Gendering The Museum",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
+		},
+		service: ["Development"],
+		link: {
+			url: "https://genderingthemuseum.co.uk/",
 		},
 	},
 	{
