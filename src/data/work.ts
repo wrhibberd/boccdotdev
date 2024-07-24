@@ -83,16 +83,6 @@ const work = [
 		},
 		service: ["Development"],
 	},
-	{
-		status: "In Progress",
-		year: 2024,
-		title: "Settled Culture",
-		partner: {
-			name: "I Am Sam Creative",
-			link: "https://iamsamcreative.co.uk/",
-		},
-		service: ["Development"],
-	},
 	// {
 	// 	status: "In Progress",
 	// 	title: "Ocean Ecology",
@@ -119,6 +109,18 @@ const work = [
 		],
 		link: {
 			url: "https://thehouse-group.com/",
+		},
+	},
+	{
+		year: 2024,
+		title: "Settled Culture",
+		partner: {
+			name: "I Am Sam Creative",
+			link: "https://iamsamcreative.co.uk/",
+		},
+		service: ["Development"],
+		link: {
+			url: "https://settledculture.org.uk/",
 		},
 	},
 	{
