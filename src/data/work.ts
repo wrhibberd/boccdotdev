@@ -56,16 +56,6 @@ const work = [
 	{
 		status: "In Progress",
 		year: 2024,
-		title: "Cicada",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
-		service: ["Development"],
-	},
-	{
-		status: "In Progress",
-		year: 2024,
 		title: "ESPO",
 		partner: {
 			name: "Bellow Studio",
@@ -109,6 +99,18 @@ const work = [
 		],
 		link: {
 			url: "https://thehouse-group.com/",
+		},
+	},
+	{
+		year: 2024,
+		title: "Cicada",
+		partner: {
+			name: "Intercity",
+			link: "https://intercitystudio.com/",
+		},
+		service: ["Development"],
+		link: {
+			url: "https://experiencecicada.com/",
 		},
 	},
 	{
