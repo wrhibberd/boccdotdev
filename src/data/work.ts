@@ -36,16 +36,6 @@ const work = [
 	{
 		status: "In Progress",
 		year: 2024,
-		title: "Born 2 Localize",
-		partner: {
-			name: "REZ",
-			link: "https://www.tabrez.cc/",
-		},
-		service: ["Development"],
-	},
-	{
-		status: "In Progress",
-		year: 2024,
 		title: "RBC",
 		partner: {
 			name: "The Modern World",
@@ -99,6 +89,18 @@ const work = [
 		],
 		link: {
 			url: "https://thehouse-group.com/",
+		},
+	},
+	{
+		year: 2024,
+		title: "Born 2 Localize",
+		partner: {
+			name: "REZ",
+			link: "https://www.tabrez.cc/",
+		},
+		service: ["Development"],
+		link: {
+			url: "https://born2localize.com/",
 		},
 	},
 	{
