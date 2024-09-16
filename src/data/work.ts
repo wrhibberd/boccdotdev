@@ -36,16 +36,6 @@ const work = [
 	{
 		status: "In Progress",
 		year: 2024,
-		title: "RBC",
-		partner: {
-			name: "The Modern World",
-			link: "https://themodernworld.co.uk/",
-		},
-		service: ["Development"],
-	},
-	{
-		status: "In Progress",
-		year: 2024,
 		title: "ESPO",
 		partner: {
 			name: "Bellow Studio",
@@ -89,6 +79,18 @@ const work = [
 		],
 		link: {
 			url: "https://thehouse-group.com/",
+		},
+	},
+	{
+		year: 2024,
+		title: "RBC",
+		partner: {
+			name: "The Modern World",
+			link: "https://themodernworld.co.uk/",
+		},
+		service: ["Development"],
+		link: {
+			url: "https://ruthbadger.com/",
 		},
 	},
 	{
