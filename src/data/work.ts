@@ -36,6 +36,16 @@ const work = [
 	{
 		status: "In Progress",
 		year: 2024,
+		title: "Beam",
+		partner: {
+			name: "SB8",
+			link: "https://www.sb8.studio/",
+		},
+		service: ["Development"],
+	},
+	{
+		status: "In Progress",
+		year: 2024,
 		title: "ESPO",
 		partner: {
 			name: "Bellow Studio",
