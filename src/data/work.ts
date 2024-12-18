@@ -42,6 +42,22 @@ const work = [
 			link: "https://www.sb8.studio/",
 		},
 		service: ["Development"],
+		link: {
+			url: "https://bemorebeam.com/",
+		},
+	},
+	{
+		status: "In Progress",
+		year: 2024,
+		title: "MISTER",
+		partner: {
+			name: "MISTER",
+			link: "https://mister.studio/",
+		},
+		service: ["Development"],
+		// link: {
+		// 	url: "https://mister.studio/",
+		// },
 	},
 	{
 		status: "In Progress",
