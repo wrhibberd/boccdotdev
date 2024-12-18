@@ -36,19 +36,6 @@ const work = [
 	{
 		status: "In Progress",
 		year: 2024,
-		title: "Beam",
-		partner: {
-			name: "SB8",
-			link: "https://www.sb8.studio/",
-		},
-		service: ["Development"],
-		link: {
-			url: "https://bemorebeam.com/",
-		},
-	},
-	{
-		status: "In Progress",
-		year: 2024,
 		title: "MISTER",
 		partner: {
 			name: "MISTER",
@@ -62,23 +49,36 @@ const work = [
 	{
 		status: "In Progress",
 		year: 2024,
-		title: "ESPO",
+		title: "Beam",
 		partner: {
-			name: "Bellow Studio",
-			link: "https://twitter.com/BellowStudio",
+			name: "SB8",
+			link: "https://www.sb8.studio/",
 		},
 		service: ["Development"],
-	},
-	{
-		status: "In Progress",
-		year: 2024,
-		title: "Centre for Innovation in Mathematics Teaching",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
+		link: {
+			url: "https://bemorebeam.com/",
 		},
-		service: ["Development"],
 	},
+	// {
+	// 	status: "In Progress",
+	// 	year: 2024,
+	// 	title: "ESPO",
+	// 	partner: {
+	// 		name: "Bellow Studio",
+	// 		link: "https://twitter.com/BellowStudio",
+	// 	},
+	// 	service: ["Development"],
+	// },
+	// {
+	// 	status: "In Progress",
+	// 	year: 2024,
+	// 	title: "Centre for Innovation in Mathematics Teaching",
+	// 	partner: {
+	// 		name: "Intercity",
+	// 		link: "https://intercitystudio.com/",
+	// 	},
+	// 	service: ["Development"],
+	// },
 	// {
 	// 	status: "In Progress",
 	// 	title: "Ocean Ecology",
@@ -93,21 +93,6 @@ const work = [
 	// 	],
 	// },
 	{
-		status: "Ongoing",
-		title: "The House Group",
-		service: ["Design", "Development"],
-		stack: [
-			"Craft CMS",
-			"Sprig (HTMX)",
-			"AlpineJs",
-			"Motion One",
-			"Tailwind",
-		],
-		link: {
-			url: "https://thehouse-group.com/",
-		},
-	},
-	{
 		year: 2024,
 		title: "RBC",
 		partner: {
@@ -119,18 +104,18 @@ const work = [
 			url: "https://ruthbadger.com/",
 		},
 	},
-	{
-		year: 2024,
-		title: "Born 2 Localize",
-		partner: {
-			name: "REZ",
-			link: "https://www.tabrez.cc/",
-		},
-		service: ["Development"],
-		link: {
-			url: "https://born2localize.com/",
-		},
-	},
+	// {
+	// 	year: 2024,
+	// 	title: "Born 2 Localize",
+	// 	partner: {
+	// 		name: "REZ",
+	// 		link: "https://www.tabrez.cc/",
+	// 	},
+	// 	service: ["Development"],
+	// 	link: {
+	// 		url: "https://born2localize.com/",
+	// 	},
+	// },
 	{
 		year: 2024,
 		title: "Cicada",
@@ -177,6 +162,22 @@ const work = [
 		service: ["Development"],
 		link: {
 			url: "https://harbourhouse.org.uk/",
+		},
+	},
+	{
+		// status: "Ongoing",
+		year: 2023,
+		title: "The House Group",
+		service: ["Design", "Development"],
+		stack: [
+			"Craft CMS",
+			"Sprig (HTMX)",
+			"AlpineJs",
+			"Motion One",
+			"Tailwind",
+		],
+		link: {
+			url: "https://thehouse-group.com/",
 		},
 	},
 	{
