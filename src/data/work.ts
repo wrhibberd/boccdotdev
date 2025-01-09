@@ -3,12 +3,10 @@ interface Work {
 	year?: 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024;
 	title: string;
 	description?: string;
-	partner:
-		| {
-				name: string;
-				link: string;
-		  }
-		| undefined;
+	partners?: Array<{
+		name: string;
+		link?: string;
+	}>;
 	service: Array<"Design" | "Development">;
 	stack: Array<
 		| "Craft CMS"
@@ -37,10 +35,12 @@ const work = [
 		status: "In Progress",
 		year: 2024,
 		title: "MISTER",
-		partner: {
-			name: "MISTER",
-			link: "https://mister.studio/",
-		},
+		partnerss: [
+			{
+				name: "MISTER",
+				link: "https://mister.studio/",
+			},
+		],
 		service: ["Development"],
 		// link: {
 		// 	url: "https://mister.studio/",
@@ -50,10 +50,12 @@ const work = [
 		status: "In Progress",
 		year: 2024,
 		title: "Beam",
-		partner: {
-			name: "SB8",
-			link: "https://www.sb8.studio/",
-		},
+		partnerss: [
+			{
+				name: "SB8",
+				link: "https://www.sb8.studio/",
+			},
+		],
 		service: ["Development"],
 		link: {
 			url: "https://bemorebeam.com/",
@@ -63,7 +65,7 @@ const work = [
 	// 	status: "In Progress",
 	// 	year: 2024,
 	// 	title: "ESPO",
-	// 	partner: {
+	// 	partners: {
 	// 		name: "Bellow Studio",
 	// 		link: "https://twitter.com/BellowStudio",
 	// 	},
@@ -73,7 +75,7 @@ const work = [
 	// 	status: "In Progress",
 	// 	year: 2024,
 	// 	title: "Centre for Innovation in Mathematics Teaching",
-	// 	partner: {
+	// 	partners: {
 	// 		name: "Intercity",
 	// 		link: "https://intercitystudio.com/",
 	// 	},
@@ -93,12 +95,32 @@ const work = [
 	// 	],
 	// },
 	{
+		year: 2025,
+		title: "POST",
+		partners: [
+			{
+				name: "POST",
+				link: "https://deliveredbypost.com/",
+			},
+			{
+				name: "SB8",
+				link: "https://www.sb8.studio/",
+			},
+		],
+		service: ["Development"],
+		link: {
+			url: "https://deliveredbypost.com/",
+		},
+	},
+	{
 		year: 2024,
 		title: "RBC",
-		partner: {
-			name: "The Modern World",
-			link: "https://themodernworld.co.uk/",
-		},
+		partnerss: [
+			{
+				name: "The Modern World",
+				link: "https://themodernworld.co.uk/",
+			},
+		],
 		service: ["Development"],
 		link: {
 			url: "https://ruthbadger.com/",
@@ -107,7 +129,7 @@ const work = [
 	// {
 	// 	year: 2024,
 	// 	title: "Born 2 Localize",
-	// 	partner: {
+	// 	partners: {
 	// 		name: "REZ",
 	// 		link: "https://www.tabrez.cc/",
 	// 	},
@@ -119,10 +141,12 @@ const work = [
 	{
 		year: 2024,
 		title: "Cicada",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
+		partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
 		service: ["Development"],
 		link: {
 			url: "https://experiencecicada.com/",
@@ -131,10 +155,12 @@ const work = [
 	{
 		year: 2024,
 		title: "Settled Culture",
-		partner: {
-			name: "I Am Sam Creative",
-			link: "https://iamsamcreative.co.uk/",
-		},
+		partners: [
+			{
+				name: "I Am Sam Creative",
+				link: "https://iamsamcreative.co.uk/",
+			},
+		],
 		service: ["Development"],
 		link: {
 			url: "https://settledculture.org.uk/",
@@ -143,10 +169,12 @@ const work = [
 	{
 		year: 2024,
 		title: "Dice Consulting",
-		partner: {
-			name: "POST",
-			link: "https://deliveredbypost.com/",
-		},
+		partners: [
+			{
+				name: "POST",
+				link: "https://deliveredbypost.com/",
+			},
+		],
 		service: ["Development"],
 		link: {
 			url: "https://diceconsult.co.uk/",
@@ -155,10 +183,12 @@ const work = [
 	{
 		year: 2024,
 		title: "Harbour House",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
+		partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
 		service: ["Development"],
 		link: {
 			url: "https://harbourhouse.org.uk/",
@@ -183,10 +213,12 @@ const work = [
 	{
 		year: 2023,
 		title: "Gendering The Museum",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
+		partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
 		service: ["Development"],
 		link: {
 			url: "https://genderingthemuseum.co.uk/",
@@ -195,10 +227,12 @@ const work = [
 	{
 		year: 2023,
 		title: "Open Squash",
-		partner: {
-			name: "Soello",
-			link: "https://www.soello.com/",
-		},
+		partners: [
+			{
+				name: "Soello",
+				link: "https://www.soello.com/",
+			},
+		],
 		service: ["Design", "Development"],
 		link: {
 			url: "https://opensquash.org/",
@@ -215,10 +249,12 @@ const work = [
 	{
 		year: 2023,
 		title: "Atlantica",
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
+		partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
 		service: ["Design", "Development"],
 		link: {
 			url: "https://atlantica.art/",
@@ -227,10 +263,12 @@ const work = [
 	{
 		year: 2023,
 		title: "GANNI Responsibility Report 2022",
-		partner: {
-			name: "POST",
-			link: "https://deliveredbypost.com/",
-		},
+		partners: [
+			{
+				name: "POST",
+				link: "https://deliveredbypost.com/",
+			},
+		],
 		service: ["Development"],
 		link: {
 			url: "https://responsibilityreport2022.ganni.com/",
@@ -240,10 +278,12 @@ const work = [
 		year: 2023,
 		title: "adidas originals x END. Bauhaus Collection",
 		service: ["Development"],
-		partner: {
-			name: "The Midnight Club",
-			link: "https://themidnightclub.com/",
-		},
+		partners: [
+			{
+				name: "The Midnight Club",
+				link: "https://themidnightclub.com/",
+			},
+		],
 		link: {
 			url: "https://dynamic-sawine-c0fae5.netlify.app",
 		},
@@ -252,10 +292,12 @@ const work = [
 		year: 2022,
 		title: "Studio Knight Stokoe",
 		service: ["Development"],
-		partner: {
-			name: "AndEveryone",
-			link: "https://andeveryone.com/",
-		},
+		partners: [
+			{
+				name: "AndEveryone",
+				link: "https://andeveryone.com/",
+			},
+		],
 		link: {
 			url: "https://knightstokoe.co.uk/",
 		},
@@ -264,10 +306,12 @@ const work = [
 		year: 2022,
 		title: "& Smith",
 		service: ["Development"],
-		partner: {
-			name: "Kaleido Grafik",
-			link: "https://kaleidografik.com/",
-		},
+		partners: [
+			{
+				name: "Kaleido Grafik",
+				link: "https://kaleidografik.com/",
+			},
+		],
 		link: {
 			url: "https://andsmithdesign.com/",
 		},
@@ -276,10 +320,12 @@ const work = [
 		year: 2022,
 		title: "Carl Robertshaw",
 		service: ["Development"],
-		partner: {
-			name: "Ben Jones Design",
-			link: "https://www.benjonesdesign.co.uk/",
-		},
+		partners: [
+			{
+				name: "Ben Jones Design",
+				link: "https://www.benjonesdesign.co.uk/",
+			},
+		],
 		link: {
 			url: "https://carlrobertshaw.com/",
 		},
@@ -288,10 +334,12 @@ const work = [
 		year: 2022,
 		title: "Outside Devon",
 		service: ["Development"],
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
+		partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
 		link: {
 			url: "https://www.outside-devon.com/",
 		},
@@ -300,10 +348,12 @@ const work = [
 		year: 2022,
 		title: "Intercity",
 		service: ["Development"],
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
+		partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
 		link: {
 			url: "https://intercitystudio.com/",
 		},
@@ -312,7 +362,7 @@ const work = [
 	// 	year: 2022,
 	// 	title: "Eric Haacht",
 	// 	service: ["Development"],
-	// 	partner: {
+	// 	partners: {
 	// 		name: "Intercity",
 	// 		link: "https://intercitystudio.com/",
 	// 	},
@@ -340,10 +390,12 @@ const work = [
 		year: 2021,
 		title: "Virtual 1",
 		service: ["Development"],
-		partner: {
-			name: "MUD",
-			link: "https://ournameismud.co.uk/",
-		},
+		partners: [
+			{
+				name: "MUD",
+				link: "https://ournameismud.co.uk/",
+			},
+		],
 		link: {
 			url: "https://virtual1.com/",
 		},
@@ -352,10 +404,12 @@ const work = [
 		year: 2020,
 		title: "Established & Sons",
 		service: ["Design", "Development"],
-		partner: {
-			name: "Intercity",
-			link: "https://intercitystudio.com/",
-		},
+		partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
 		link: {
 			url: "https://www.establishedandsons.com/",
 		},
