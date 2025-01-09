@@ -35,7 +35,7 @@ const work = [
 		status: "In Progress",
 		year: 2024,
 		title: "MISTER",
-		partnerss: [
+		partners: [
 			{
 				name: "MISTER",
 				link: "https://mister.studio/",
@@ -50,7 +50,7 @@ const work = [
 		status: "In Progress",
 		year: 2024,
 		title: "Beam",
-		partnerss: [
+		partners: [
 			{
 				name: "SB8",
 				link: "https://www.sb8.studio/",
@@ -115,7 +115,7 @@ const work = [
 	{
 		year: 2024,
 		title: "RBC",
-		partnerss: [
+		partners: [
 			{
 				name: "The Modern World",
 				link: "https://themodernworld.co.uk/",
