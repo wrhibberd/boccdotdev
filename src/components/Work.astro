@@ -3,76 +3,75 @@ import work from "../data/work.ts";
 ---
 
 <section
-	class="pt-24 bg-white dark:bg-black relative border-b dark:border-grey-dark border-grey-mid"
+    class="pt-24 bg-white dark:bg-black relative border-b dark:border-grey-dark border-grey-mid"
 >
-	<h2 class="font-medium text-xl pb-8">Featured Work</h2>
+    <h2 class="font-medium text-xl pb-8">Featured Work</h2>
 
-	<div class="sticky top-0 z-50 hidden md:block">
-		<div
-			class="grid grid-cols-12 gap-8 text-sm font-mono dark:text-grey-dark text-grey-mid py-4 border-b dark:border-grey-dark border-grey-mid bg-white dark:bg-black"
-		>
-			<div>Year</div>
-			<div class="col-span-5">Project</div>
-			<div class="col-span-2">Partner</div>
-			<div class="col-span-3">Service</div>
-			<div>Link</div>
-		</div>
-	</div>
-	<div
-		class="divide-y dark:divide-grey-dark divide-grey-mid border-b dark:border-grey-dark border-grey-mid"
-	>
-		{
-			work.map((item, i) => (
-				<div class="md:grid md:grid-cols-12 gap-8 py-4">
-					<div
-						class:list={[
-							{
-								"animate-pulse break-all":
-									item.status == "In Progress",
-							},
-						]}
-					>
-						{item.status ? item.status : item.year}
-					</div>
-					<div class="col-span-5">{item.title}</div>
-					<div class="col-span-2">
-						{item.partners &&
-							item.partners.map((partner, i) => (
-								<>
-									{partner.link ? (
-										<a href={partner.link} target="_blank">
-											{partner.name}
-										</a>
-									) : (
-										partner?.name
-									)}
-									{i !== (item.partners?.length ?? 0) - 1 && (
-										<span class="mr-2">,</span>
-									)}
-								</>
-							))}
-					</div>
-					<div class="col-span-3">
-						{item.service.map((service, i) => (
-							<span class="inline-block mr-2">
-								{service}
-								{i !== item.service.length - 1 && ","}
-							</span>
-						))}
-					</div>
-					{item.link ? (
-						<a
-							href={item.link?.url}
-							target="_blank"
-							class="font-mono"
-						>
-							-->
-						</a>
-					) : (
-						<div />
-					)}
-				</div>
-			))
-		}
-	</div>
+    <div class="sticky top-0 z-50 hidden md:block">
+        <div
+            class="grid grid-cols-12 gap-8 text-sm font-mono dark:text-grey-dark text-grey-mid py-4 border-b dark:border-grey-dark border-grey-mid bg-white dark:bg-black"
+        >
+            <div>Year</div>
+            <div class="col-span-5">Project</div>
+            <div class="col-span-2">Partner</div>
+            <div class="col-span-3">Service</div>
+            <div>Link</div>
+        </div>
+    </div>
+    <div
+        class="divide-y dark:divide-grey-dark divide-grey-mid border-b dark:border-grey-dark border-grey-mid"
+    >
+        {
+            work.map((item, i) => (
+                <div class="md:grid md:grid-cols-12 gap-8 py-4">
+                    <div
+                        class:list={[
+                            {
+                                "animate-pulse break-all": item.status == "WIP",
+                            },
+                        ]}
+                    >
+                        {item.status ? item.status : item.year}
+                    </div>
+                    <div class="col-span-5">{item.title}</div>
+                    <div class="col-span-2">
+                        {item.partners &&
+                            item.partners.map((partner, i) => (
+                                <>
+                                    {partner.link ? (
+                                        <a href={partner.link} target="_blank">
+                                            {partner.name}
+                                        </a>
+                                    ) : (
+                                        partner?.name
+                                    )}
+                                    {i !== (item.partners?.length ?? 0) - 1 && (
+                                        <span class="mr-2">,</span>
+                                    )}
+                                </>
+                            ))}
+                    </div>
+                    <div class="col-span-3">
+                        {item.service.map((service, i) => (
+                            <span class="inline-block mr-2">
+                                {service}
+                                {i !== item.service.length - 1 && ","}
+                            </span>
+                        ))}
+                    </div>
+                    {item.link ? (
+                        <a
+                            href={item.link?.url}
+                            target="_blank"
+                            class="font-mono"
+                        >
+                            -->
+                        </a>
+                    ) : (
+                        <div />
+                    )}
+                </div>
+            ))
+        }
+    </div>
 </section>
