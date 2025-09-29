@@ -31,24 +31,37 @@ interface Work {
 }
 
 const work = [
+	// {
+	// 	status: "WIP",
+	// 	year: 2024,
+	// 	title: "MISTER",
+	// 	partners: [
+	// 		{
+	// 			name: "MISTER",
+	// 			link: "https://mister.studio/",
+	// 		},
+	// 	],
+	// 	service: ["Development"],
+	// 	// link: {
+	// 	// 	url: "https://mister.studio/",
+	// 	// },
+	// },
 	{
-		status: "WIP",
-		year: 2024,
-		title: "MISTER",
+		year: 2025,
+		title: "Latch Wales",
 		partners: [
 			{
-				name: "MISTER",
-				link: "https://mister.studio/",
+				name: "I Am Sam Creative",
+				link: "https://iamsamcreative.co.uk/",
 			},
 		],
 		service: ["Development"],
-		// link: {
-		// 	url: "https://mister.studio/",
-		// },
+		link: {
+			url: "https://latchwales.org",
+		},
 	},
 	{
-		status: "WIP",
-		year: 2024,
+		year: 2025,
 		title: "Prism",
 		partners: [
 			{
@@ -57,10 +70,12 @@ const work = [
 			},
 		],
 		service: ["Development"],
+		link: {
+			url: "https://prism-studios.co.uk/",
+		},
 	},
 	{
-		status: "WIP",
-		year: 2024,
+		year: 2025,
 		title: "Beam",
 		partners: [
 			{
