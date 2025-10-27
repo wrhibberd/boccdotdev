@@ -139,6 +139,24 @@ const work = [
 			url: "https://thefounderoffice.com/",
 		},
 	},
+		{
+		year: 2025,
+		title: "Open Squash",
+		partners: [
+			{
+				name: "Soello",
+				link: "https://www.soello.com/",
+			},
+			{
+				name: "SB8",
+				link: "https://www.sb8.studio/",
+			},
+		],
+		service: ["Design", "Development"],
+		link: {
+			url: "https://opensquash.org/",
+		},
+	},
 	{
 		year: 2025,
 		title: "POST",
@@ -183,20 +201,20 @@ const work = [
 	// 		url: "https://born2localize.com/",
 	// 	},
 	// },
-	{
-		year: 2024,
-		title: "Cicada",
-		partners: [
-			{
-				name: "Intercity",
-				link: "https://intercitystudio.com/",
-			},
-		],
-		service: ["Development"],
-		link: {
-			url: "https://experiencecicada.com/",
-		},
-	},
+	// {
+	// 	year: 2024,
+	// 	title: "Cicada",
+	// 	partners: [
+	// 		{
+	// 			name: "Intercity",
+	// 			link: "https://intercitystudio.com/",
+	// 		},
+	// 	],
+	// 	service: ["Development"],
+	// 	link: {
+	// 		url: "https://experiencecicada.com/",
+	// 	},
+	// },
 	{
 		year: 2024,
 		title: "Settled Culture",
@@ -280,7 +298,7 @@ const work = [
 		],
 		service: ["Design", "Development"],
 		link: {
-			url: "https://opensquash.org/",
+			url: "https://archive.opensquash.org/",
 		},
 	},
 	// {
@@ -333,20 +351,20 @@ const work = [
 			url: "https://dynamic-sawine-c0fae5.netlify.app",
 		},
 	},
-	{
-		year: 2022,
-		title: "Studio Knight Stokoe",
-		service: ["Development"],
-		partners: [
-			{
-				name: "AndEveryone",
-				link: "https://andeveryone.com/",
-			},
-		],
-		link: {
-			url: "https://knightstokoe.co.uk/",
-		},
-	},
+	// {
+	// 	year: 2022,
+	// 	title: "Studio Knight Stokoe",
+	// 	service: ["Development"],
+	// 	partners: [
+	// 		{
+	// 			name: "AndEveryone",
+	// 			link: "https://andeveryone.com/",
+	// 		},
+	// 	],
+	// 	link: {
+	// 		url: "https://knightstokoe.co.uk/",
+	// 	},
+	// },
 	{
 		year: 2022,
 		title: "& Smith",
