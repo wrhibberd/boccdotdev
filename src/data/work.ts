@@ -47,6 +47,20 @@ const work = [
 	// 	// },
 	// },
 	{
+		year: 2026,
+		title: "Light Grid",
+		partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
+		service: ["Development"],
+		link: {
+			url: "https://lightgrid.intercitystudio.com/",
+		},
+	},
+	{
 		year: 2025,
 		title: "Latch Wales",
 		partners: [
@@ -139,7 +153,7 @@ const work = [
 			url: "https://thefounderoffice.com/",
 		},
 	},
-		{
+	{
 		year: 2025,
 		title: "Open Squash",
 		partners: [
