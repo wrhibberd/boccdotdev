@@ -47,6 +47,96 @@ const work = [
 	// 	// },
 	// },
 	{
+		status: "In Progress",
+		title: "Pace 7",
+        service: ["Development"],
+    },
+	{
+		status: "In Progress",
+        title: "Handsome Frank",
+        partners: [
+			{
+				name: "MISTER",
+				link: "https://mister.studio/",
+			},
+		],
+        service: ["Migration, Consultancy, Development"],
+    },
+	{
+		status: "In Progress",
+        title: "VASW v2",
+        partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
+        service: ["Consultancy, Development"],
+    },
+	{
+		status: "In Progress",
+        title: "Hinterland",
+        partners: [
+			{
+				name: "Intercity",
+				link: "https://intercitystudio.com/",
+			},
+		],
+        service: ["Development"],
+    },
+	{
+		year: 2026,
+		title: "Sam Finney",
+		service: ["Design, Development"],
+		link: {
+			url: "https://sam-finney.com/",
+		},
+    },
+	{
+		year: 2026,
+		title: "Three Degrees",
+        partners: [
+			{
+				name: "POST",
+				link: "https://deliveredbypost.com/",
+			}
+		],
+        service: ["Development"],
+		link: {
+			url: "https://2degs.com/",
+		},
+    },
+	{
+		year: 2026,
+		title: "Cycle Citizens",
+		service: ["Development"],
+		link: {
+			url: "https://cyclecitizens.cc/",
+		},
+    },
+    {
+		year: 2026,
+		title: "Holden House",
+		partners: [
+			{
+				name: "POST",
+				link: "https://deliveredbypost.com/",
+			}
+		],
+		service: ["Development"],
+		link: {
+			url: "https://holdenhousew1.com/",
+		},
+	},
+	{
+		year: 2026,
+		title: "Sam Finney",
+		service: ["Design, Development"],
+		link: {
+			url: "https://sam-finney.com/",
+		},
+	},
+	{
 		year: 2026,
 		title: "Light Grid",
 		partners: [
