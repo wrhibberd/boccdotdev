@@ -47,12 +47,12 @@ const work = [
 	// 	// },
 	// },
 	{
-		status: "In Progress",
+		status: "WIP",
 		title: "Pace 7",
         service: ["Development"],
     },
 	{
-		status: "In Progress",
+		status: "WIP",
         title: "Handsome Frank",
         partners: [
 			{
@@ -63,7 +63,7 @@ const work = [
         service: ["Migration", "Consultancy", "Development"],
     },
 	{
-		status: "In Progress",
+		status: "WIP",
         title: "VASW v2",
         partners: [
 			{
@@ -74,7 +74,7 @@ const work = [
         service: ["Consultancy", "Development"],
     },
 	{
-		status: "In Progress",
+		status: "WIP",
         title: "Hinterland",
         partners: [
 			{
@@ -103,7 +103,7 @@ const work = [
 		],
         service: ["Development"],
 		link: {
-			url: "https://2degs.com/",
+			url: "https://3deg.com/",
 		},
     },
 	{
