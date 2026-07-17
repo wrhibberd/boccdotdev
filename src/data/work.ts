@@ -1,13 +1,13 @@
 interface Work {
 	status?: "WIP" | "Completed" | "Ongoing";
-	year?: 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024;
+	year?: 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026;
 	title: string;
 	description?: string;
 	partners?: Array<{
 		name: string;
 		link?: string;
 	}>;
-	service: Array<"Design" | "Development">;
+	service: Array<"Design" | "Development" | "Consultancy" | "Migration">;
 	stack: Array<
 		| "Craft CMS"
 		| "Sprig (HTMX)"
@@ -60,7 +60,7 @@ const work = [
 				link: "https://mister.studio/",
 			},
 		],
-        service: ["Migration, Consultancy, Development"],
+        service: ["Migration", "Consultancy", "Development"],
     },
 	{
 		status: "In Progress",
@@ -71,7 +71,7 @@ const work = [
 				link: "https://intercitystudio.com/",
 			},
 		],
-        service: ["Consultancy, Development"],
+        service: ["Consultancy", "Development"],
     },
 	{
 		status: "In Progress",
@@ -87,7 +87,7 @@ const work = [
 	{
 		year: 2026,
 		title: "Sam Finney",
-		service: ["Design, Development"],
+		service: ["Design", "Development"],
 		link: {
 			url: "https://sam-finney.com/",
 		},
@@ -126,14 +126,6 @@ const work = [
 		service: ["Development"],
 		link: {
 			url: "https://holdenhousew1.com/",
-		},
-	},
-	{
-		year: 2026,
-		title: "Sam Finney",
-		service: ["Design, Development"],
-		link: {
-			url: "https://sam-finney.com/",
 		},
 	},
 	{
