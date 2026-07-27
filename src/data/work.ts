@@ -46,11 +46,6 @@ const work = [
 	// 	// 	url: "https://mister.studio/",
 	// 	// },
 	// },
-	// {
-	// 	status: "WIP",
-	// 	title: "Pace 7",
- //        service: ["Development"],
- //    },
 	{
 		status: "WIP",
         title: "Handsome Frank",
